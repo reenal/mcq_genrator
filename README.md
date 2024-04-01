@@ -1,1 +1,1 @@
-# mcq_genrator
+conda  create python == 3.8

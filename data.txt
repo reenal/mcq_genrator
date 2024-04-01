@@ -1,0 +1,108 @@
+Machine Learning, often abbreviated as ML, is a subset of artificial intelligence (AI) that focuses on the development of computer algorithms that improve automatically through experience and by the use of data. In simpler terms, machine learning enables computers to learn from data and make decisions or predictions without being explicitly programmed to do so.
+
+At its core, machine learning is all about creating and implementing algorithms that facilitate these decisions and predictions. These algorithms are designed to improve their performance over time, becoming more accurate and effective as they process more data.
+
+In traditional programming, a computer follows a set of predefined instructions to perform a task. However, in machine learning, the computer is given a set of examples (data) and a task to perform, but it's up to the computer to figure out how to accomplish the task based on the examples it's given.
+
+For instance, if we want a computer to recognize images of cats, we don't provide it with specific instructions on what a cat looks like. Instead, we give it thousands of images of cats and let the machine learning algorithm figure out the common patterns and features that define a cat. Over time, as the algorithm processes more images, it gets better at recognizing cats, even when presented with images it has never seen before.
+
+This ability to learn from data and improve over time makes machine learning incredibly powerful and versatile. It's the driving force behind many of the technological advancements we see today, from voice assistants and recommendation systems to self-driving cars and predictive analytics.
+
+Machine learning vs AI vs deep learning
+Machine learning is often confused with artificial intelligence or deep learning. Let's take a look at how these terms differ from one another. For a more in-depth look, check out our comparison guides on AI vs machine learning and machine learning vs deep learning. 
+
+AI refers to the development of programs that behave intelligently and mimic human intelligence through a set of algorithms. The field focuses on three skills: learning, reasoning, and self-correction to obtain maximum efficiency. AI can refer to either machine learning-based programs or even explicitly programmed computer programs.
+
+Machine learning is a subset of AI, which uses algorithms that learn from data to make predictions. These predictions can be generated through supervised learning, where algorithms learn patterns from existing data, or unsupervised learning, where they discover general patterns in data. ML models can predict numerical values based on historical data, categorize events as true or false, and cluster data points based on commonalities.
+
+Deep learning, on the other hand, is a subfield of machine learning dealing with algorithms based essentially on multi-layered artificial neural networks (ANN) that are inspired by the structure of the human brain.
+
+Unlike conventional machine learning algorithms, deep learning algorithms are less linear, more complex, and hierarchical, capable of learning from enormous amounts of data, and able to produce highly accurate results. Language translation, image recognition, and personalized medicines are some examples of deep learning applications.
+
+Comparing different industry terms
+
+Comparing different industry terms
+
+The Importance of Machine Learning
+In the 21st century, data is the new oil, and machine learning is the engine that powers this data-driven world. It is a critical technology in today's digital age, and its importance cannot be overstated. This is reflected in the industry's projected growth, with the US Bureau of Labor Statistics predicting a 21% growth in jobs between 2021 and 2031.
+
+Here are some reasons why it’s so essential in the modern world:
+
+Data processing. One of the primary reasons machine learning is so important is its ability to handle and make sense of large volumes of data. With the explosion of digital data from social media, sensors, and other sources, traditional data analysis methods have become inadequate. Machine learning algorithms can process these vast amounts of data, uncover hidden patterns, and provide valuable insights that can drive decision-making.
+Driving innovation. Machine learning is driving innovation and efficiency across various sectors. Here are a few examples:
+Healthcare. Algorithms are used to predict disease outbreaks, personalize patient treatment plans, and improve medical imaging accuracy.
+Finance. Machine learning is used for credit scoring, algorithmic trading, and fraud detection.
+Retail. Recommendation systems, supply chains, and customer service can all benefit from machine learning.
+The techniques used also find applications in sectors as diverse as agriculture, education, and entertainment.
+Enabling automation. Machine learning is a key enabler of automation. By learning from data and improving over time, machine learning algorithms can perform previously manual tasks, freeing humans to focus on more complex and creative tasks. This not only increases efficiency but also opens up new possibilities for innovation.
+How Does Machine Learning Work?
+Understanding how machine learning works involves delving into a step-by-step process that transforms raw data into valuable insights. Let's break down this process:
+
+A beginner's guide to the Machine Learning Workflow
+
+See the full workflow here
+
+Step 1: Data collection
+The first step in the machine learning process is data collection. Data is the lifeblood of machine learning - the quality and quantity of your data can directly impact your model's performance. Data can be collected from various sources such as databases, text files, images, audio files, or even scraped from the web.
+
+Once collected, the data needs to be prepared for machine learning. This process involves organizing the data in a suitable format, such as a CSV file or a database, and ensuring that the data is relevant to the problem you're trying to solve.
+
+Step 2: Data preprocessing
+Data preprocessing is a crucial step in the machine learning process. It involves cleaning the data (removing duplicates, correcting errors), handling missing data (either by removing it or filling it in), and normalizing the data (scaling the data to a standard format).
+
+Preprocessing improves the quality of your data and ensures that your machine learning model can interpret it correctly. This step can significantly improve the accuracy of your model. Our course, Preprocessing for Machine Learning in Python, explores how to get your cleaned data ready for modeling.
+
+Step 3: Choosing the right model
+Once the data is prepared, the next step is to choose a machine learning model. There are many types of models to choose from, including linear regression, decision trees, and neural networks. The choice of model depends on the nature of your data and the problem you're trying to solve.
+
+Factors to consider when choosing a model include the size and type of your data, the complexity of the problem, and the computational resources available. You can read more about the different machine learning models in a separate article.
+
+Step 4: Training the model
+After choosing a model, the next step is to train it using the prepared data. Training involves feeding the data into the model and allowing it to adjust its internal parameters to better predict the output.
+
+During training, it's important to avoid overfitting (where the model performs well on the training data but poorly on new data) and underfitting (where the model performs poorly on both the training data and new data). You can learn more about the full machine learning process in our Machine Learning Fundamentals with Python skill track, which explores the essential concepts and how to apply them.
+
+Step 5: Evaluating the model
+Once the model is trained, it's important to evaluate its performance before deploying it. This involves testing the model on new data it hasn't seen during training.
+
+Common metrics for evaluating a model's performance include accuracy (for classification problems), precision and recall (for binary classification problems), and mean squared error (for regression problems). We cover this evaluation process in more detail in our Responsible AI webinar.
+
+Step 6: Hyperparameter tuning and optimization
+After evaluating the model, you may need to adjust its hyperparameters to improve its performance. This process is known as parameter tuning or hyperparameter optimization.
+
+Techniques for hyperparameter tuning include grid search (where you try out different combinations of parameters) and cross validation (where you divide your data into subsets and train your model on each subset to ensure it performs well on different data).
+
+We have a separate article on hyperparameter optimization in machine learning models, which covers the topic in more detail.
+
+Step 7: Predictions and deployment
+Once the model is trained and optimized, it's ready to make predictions on new data. This process involves feeding new data into the model and using the model's output for decision-making or further analysis.
+
+Deploying the model involves integrating it into a production environment where it can process real-world data and provide real-time insights. This process is often known as MLOps. Discover more about MLOps in a separate tutorial.
+
+Types of Machine Learning
+Machine learning can be broadly classified into three types based on the nature of the learning system and the data available: supervised learning, unsupervised learning, and reinforcement learning. Let's delve into each of these:
+
+Supervised learning
+Supervised learning is the most common type of machine learning. In this approach, the model is trained on a labeled dataset. In other words, the data is accompanied by a label that the model is trying to predict. This could be anything from a category label to a real-valued number.
+
+The model learns a mapping between the input (features) and the output (label) during the training process. Once trained, the model can predict the output for new, unseen data.
+
+Common examples of supervised learning algorithms include linear regression for regression problems and logistic regression, decision trees, and support vector machines for classification problems. In practical terms, this could look like an image recognition process, wherein a dataset of images where each picture is labeled as "cat," "dog," etc., a supervised model can recognize and categorize new images accurately.
+
+Unsupervised learning
+Unsupervised learning, on the other hand, involves training the model on an unlabeled dataset. The model is left to find patterns and relationships in the data on its own.
+
+This type of learning is often used for clustering and dimensionality reduction. Clustering involves grouping similar data points together, while dimensionality reduction involves reducing the number of random variables under consideration by obtaining a set of principal variables.
+
+Common examples of unsupervised learning algorithms include k-means for clustering problems and Principal Component Analysis (PCA) for dimensionality reduction problems. Again, in practical terms, in the field of marketing, unsupervised learning is often used to segment a company's customer base. By examining purchasing patterns, demographic data, and other information, the algorithm can group customers into segments that exhibit similar behaviors without any pre-existing labels.
+
+Comparing supervised and unsupervised learning
+
+Comparing supervised and unsupervised learning
+
+Reinforcement learning
+Reinforcement learning is a type of machine learning where an agent learns to make decisions by interacting with its environment. The agent is rewarded or penalized (with points) for the actions it takes, and its goal is to maximize the total reward.
+
+Unlike supervised and unsupervised learning, reinforcement learning is particularly suited to problems where the data is sequential, and the decision made at each step can affect future outcomes.
+
+Common examples of reinforcement learning include game playing, robotics, resource management, and many more.

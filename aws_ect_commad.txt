@@ -1,0 +1,25 @@
+sudo apt update
+
+sudo apt-get update
+
+sudo apt-upgrade -y
+
+sudo apt install git curl unzip tar make sudo vim wget
+
+git clone "your repo"
+
+cd mcq 
+
+touch .env
+
+sudo apt install python3-pip
+
+pip install -r requirment.txt
+
+python3 -m streamlit run StreamlitAPP.py
+
+
+go to scurity and add inbound rule 
+add port 8501
+
+
